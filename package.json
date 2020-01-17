@@ -1,0 +1,19 @@
+{
+  "name": "CSSLive2D",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "author": "spring-raining <harusamex.com@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "npx serve -l 12000"
+  },
+  "dependencies": {
+    "nanoid": "^2.1.9",
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/nanoid": "^2.1.0"
+  }
+}

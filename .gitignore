@@ -1,0 +1,7 @@
+node_modules/
+dist/
+framework/
+/core/*
+!/core/README.md
+/resources/*
+!/resources/README.md

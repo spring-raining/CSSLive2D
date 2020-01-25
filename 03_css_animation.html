@@ -6,11 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 
-  <script src="dist/core/live2dcubismcore.js"></script>
-  <script src="dist/src/morph/index.js" type="module"></script>
+  <script class="builder" src="dist/core/live2dcubismcore.js"></script>
+  <script class="builder" src="dist/src/03_css_animation/index.js" type="module"></script>
+
+  <style id="style">
+    .loading * {
+      animation-play-state: paused !important;
+    }
+  </style>
 </head>
 <body>
-  <svg id="svgScene" width="2048" height="2048" preserveAspectRatio="none">
+  <svg id="svgScene" width="1024" height="1024" viewBox="512,100,1024,1024" preserveAspectRatio="none">
     <defs id="svgDefs">
       <symbol id="texture_00" width="2048" height="2048">
         <image xlink:href="resources/Haru/Haru.2048/texture_00.png"/>

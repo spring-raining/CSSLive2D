@@ -10,7 +10,7 @@
     "serve": "npx serve -l 12000"
   },
   "dependencies": {
-    "nanoid": "^2.1.9",
+    "nanoid": "^3.1.31",
     "typescript": "^3.7.4"
   },
   "devDependencies": {
